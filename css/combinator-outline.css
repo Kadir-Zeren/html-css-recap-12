@@ -5,7 +5,7 @@
 }
 
 /** Descendent Selector*/
-/*! box class'ı içerisinde tüm p'leri sec */
+/*! box class'ı icerisinde tüm p'leri sec */
 .box p {
   color: red;
 }
@@ -15,7 +15,7 @@
 } */
 
 /** Child Selector */
-/*! parent'i box class olan tüm hl'leri seç */
+/*! parent'i box class olan tüm h1'leri seç */
 .box > h1 {
   color: blue;
 }
@@ -27,7 +27,7 @@
 }
 
 /** General Sibling Selector */
-/*! box elementi kapandiktan sonraki tům p elementleri secer */
+/*! box elementi kapandiktan sonraki tüm p elementleri secer */
 .box ~ p {
   color: green;
 }
